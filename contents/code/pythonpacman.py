@@ -56,12 +56,12 @@ def list_due_update():
     # filter out the ignored packages
     ignored = set(list_ignorepkg())
     packages = [x for x in packages if x[0] not in ignored]
-    print len(packages), packages
+    #print len(packages), packages
     
     return packages
 
 
 if __name__ == '__main__':
-    #print get_ignored_count()
-    #print list_ignorepkg()
-    list_due_update()
+    print "# ignored:", get_ignored_count()
+    print "ignored;", list_ignorepkg()
+    print "to update:", list_due_update()
