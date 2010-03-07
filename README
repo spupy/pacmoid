@@ -1,0 +1,4 @@
+Pacmoid is a plasmoid for KDE 4.
+It displays status information from the pacman package manager for Arch Linux. Things that can be displayed:
+* Number of updatetable packages
+* List of updatetable packages
